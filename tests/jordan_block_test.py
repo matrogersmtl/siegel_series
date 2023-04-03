@@ -6,6 +6,7 @@ from ..tests.utils import random_even_symm_mat
 from ..impl import jordan_blocks_odd, jordan_blocks_2
 from ..jordan_block import _jordan_decomposition_odd_p
 import operator
+from functools import reduce
 
 
 def _blocks_to_quad_form(blcs, p):

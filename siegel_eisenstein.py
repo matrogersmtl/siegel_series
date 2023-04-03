@@ -4,6 +4,7 @@ from sage.all import zeta as _zeta
 from .impl import siegel_series_polynomial, X
 from .utils import non_deg_submatrix
 import operator
+from functools import reduce
 
 
 def zeta(s):
